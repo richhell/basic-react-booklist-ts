@@ -4,7 +4,7 @@ import './App.css'
 import { Button } from 'react-bootstrap'
 import { BookItem } from './types'
 import BookList from './components/BookList.tsx'
-import { listOfBooks } from './data'
+import { listOfBooks } from './data.ts'
 
 function App() {
   const [books, setBooks] = useState<BookItem[]>(listOfBooks);
