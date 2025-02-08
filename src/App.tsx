@@ -50,12 +50,12 @@ function App() {
   // Display the list of books with the ability to add a book, toggle read status, and delete a book.
   return (
     <Stack gap={2}>
-      <div className="title" style ={{ width: "500px"}}>
+      <div className="title" style ={{ width: "500px", margin: "auto"}}>
       {showAlert && (
         <Alert variant="danger" onClose={() => setShowAlert(false)} dismissible>
           <Alert.Heading>Error!</Alert.Heading>
           <p>
-            Please enter a book title before adding it to the list! The field cannot be
+            Please enter a book title before clicking Add Book! The field cannot be
             empty.
           </p>
         </Alert>)}

@@ -1,5 +1,4 @@
 import "./books.css";
-
 import { Button } from "react-bootstrap";
 import type { BookItem } from "../types";
 
